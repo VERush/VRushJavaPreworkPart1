@@ -35,6 +35,8 @@ public class CheckDigitSums {
 			}
 		} while (firstNumLength != secondNumLength);
 
+		input.close();
+
 		// Declare variables for digit by digit comparison
 
 		int firstNumFirstDigit;
